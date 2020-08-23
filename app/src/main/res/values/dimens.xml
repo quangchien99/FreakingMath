@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_40sp">40sp</dimen>
+    <dimen name="text_size_50sp">50sp</dimen>
+    <dimen name="btn_width_160dp">160dp</dimen>
+    <dimen name="btn_height_80dp">80dp</dimen>
+    <dimen name="margin_top_100dp">100dp</dimen>
+    <dimen name="margin_top_80dp">80dp</dimen>
+    <dimen name="text_size_30sp">30sp</dimen>
+    <dimen name="margin_start_10dp">10dp</dimen>
+    <dimen name="margin_end_10dp">10dp</dimen>
+    <dimen name="margin_top_10dp">10dp</dimen>
+    <dimen name="width_260dp">260dp</dimen>
+    <dimen name="margin_top_150dp">150dp</dimen>
+    <dimen name="margin_start_30dp">30dp</dimen>
+    <dimen name="margin_end_20dp">20dp</dimen>
+    <dimen name="margin_start_20dp">20dp</dimen>
+    <dimen name="margin_top_30dp">30dp</dimen>
+    <dimen name="padding_start_15dp">15dp</dimen>
+</resources>

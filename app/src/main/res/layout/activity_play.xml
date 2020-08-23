@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background"
+    android:orientation="vertical"
+    tools:context=".activity.PlayActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:context=".activity.PlayActivity">
+
+        <TextView
+            android:id="@+id/tv_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_start_10dp"
+            android:layout_marginTop="@dimen/margin_top_10dp"
+            android:gravity="left"
+
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/text_size_30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_best_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_10dp"
+            android:layout_marginEnd="@dimen/margin_end_10dp"
+            android:gravity="right"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/text_size_30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/margin_top_30dp"
+        android:background="@color/color_white"
+        android:max="10" />
+
+    <TextView
+        android:id="@+id/tv_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_30dp"
+        android:gravity="center"
+        android:text="10"
+        android:textColor="@color/color_light_red"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_80dp"
+        android:gravity="center"
+        android:text="7 + 9 = 16"
+        android:textColor="@color/color_white"
+        android:textSize="80sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_150dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:context=".activity.PlayActivity">
+
+
+        <Button
+            android:id="@+id/btn_true"
+            android:layout_width="@dimen/btn_width_160dp"
+            android:layout_height="@dimen/btn_height_80dp"
+            android:layout_gravity="right"
+            android:layout_marginEnd="@dimen/margin_end_20dp"
+            android:background="@drawable/btn_green"
+            android:text="True"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/text_size_40sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_false"
+            android:layout_width="@dimen/btn_width_160dp"
+            android:layout_height="@dimen/btn_height_80dp"
+            android:layout_marginStart="@dimen/margin_start_20dp"
+            android:background="@drawable/btn_red"
+            android:text="False"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/text_size_40sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

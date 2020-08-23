@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_game_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:shadowColor="@color/color_black"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="2"
+        android:text="@string/game_name"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/text_size_50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_best_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_80dp"
+        android:gravity="center"
+        android:text="@string/best_score"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/text_size_40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_player_name"
+        android:layout_width="@dimen/width_260dp"
+        android:layout_height="@dimen/btn_height_80dp"
+        android:layout_marginTop="@dimen/margin_top_30dp"
+        android:background="@drawable/tv_round"
+        android:hint="Enter Your Name"
+        android:paddingStart="@dimen/padding_start_15dp"
+        android:textColor="@color/color_dark_red"
+        android:textColorHint="@color/color_dark_red"
+        android:textSize="@dimen/text_size_30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="@dimen/btn_width_160dp"
+        android:layout_height="@dimen/btn_height_80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_top_100dp"
+        android:background="@drawable/btn_red"
+        android:text="@string/play"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/text_size_40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_more"
+        android:layout_width="@dimen/btn_width_160dp"
+        android:layout_height="@dimen/btn_height_80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_green"
+        android:text="@string/more"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/text_size_40sp"
+        android:textStyle="bold" />
+</LinearLayout>
